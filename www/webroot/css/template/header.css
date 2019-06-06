@@ -1,0 +1,481 @@
+@font-face {
+    font-family: Hind-Regular;
+    src: url(../../fonts/Hind-Regular.ttf);
+
+}
+body {
+    margin: 5px 0 0 0;
+}
+.head {
+    height: 180px;
+    display: flex;
+    margin-top: 0;
+    align-items: center;
+}
+#logotipchik {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+}
+#navigation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 4px;
+    padding-right: 0;
+}
+#nav_panel{
+    float: left;
+    padding-bottom: 10px;
+    /*margin-left: 24px;*/
+    padding-right: 0;
+}
+#cheked {
+    margin-top: 40px;
+}
+#taxi838 {
+    font-family: Hind-Regular;
+    font-size: 30px;
+    margin-top: 3px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+#slogan {
+    font-family: Verdana;
+    font-size: 14px;
+    margin-top: -11px;
+    margin-bottom: 0;
+}
+#slog_up {
+    margin-left: -10px;
+}
+#last_men {
+    margin-right: 0;
+}
+.arm {
+    cursor: pointer;
+}
+.slogan {
+    margin-left: 0;
+}
+.logo {
+    margin-left: -33px;
+}
+#shashki {
+    width: 100%;
+    overflow: hidden;
+    margin-top: -10px;
+}
+#numb {
+    font-family: Hind-Regular;
+    font-size: 24px;
+    margin-left: 15px;
+    margin-bottom: -4px;
+}
+.phone {
+    padding-right: 55px;
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: -38px;
+    margin-top: -7px;
+}
+.otstyp {
+    margin-right: 17px;
+    margin-top: 4px;
+    display: inline-block;
+    padding: 10px;
+
+}
+.otstyp:hover {
+    background-color: #f3af25;
+    border-radius: 12px;
+    color: white;
+}
+
+.otstyp:hover  a{
+    color: #f4f0ea;
+}
+
+header div a {
+    text-decoration: none;
+    font-family: verdana;
+    font-size: 14px;
+    color: black;
+}
+.knopka {
+    display: none;
+}
+#knopka {
+    height: 34px;
+    width: 34px;
+    margin-top: -3px;
+    margin-left: 0;
+}
+
+#exit_icon{
+    float: left;
+    padding-left: 12px;
+}
+
+#reg_icon{
+    float: left;
+    padding-left: 5px
+}
+
+#log_reg{
+    margin-top: 38px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+.size_font_ex_reg{
+    font-size: 11px;
+}
+.size_font_ex_reg:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.hidden-menu-ticker {
+    display: none;
+}
+.hidden-menu {
+    display: block;
+    position: fixed;
+    list-style: none;
+    padding: 10px;
+    margin-top: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+    width: 268px;
+    background-color: #404040;
+    height: 100%;
+    top: -40px;
+    right: -268px;
+    transition: right .2s;
+    z-index: 2;
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+}
+.hidden-menu-ticker1 {
+    display: none;
+}
+.hidden-menu-ticker:checked ~ .hidden-menu {
+    right: 0;
+}
+.hidden-menu-ticker1:checked ~ .hidden-menu {
+    right: -200px;
+}
+.menybar {
+    font-family: Verdana;
+    font-size: 12px;
+    color: #faf5f5;
+}
+#krest {
+    cursor: pointer;
+    margin-top: 27px;
+    height: 30px;
+    width: 27px;
+}
+#otstypkrest {
+    margin-left: 180px;
+}
+#menybar {
+    margin-left: 35px;
+    margin-top: 14px;
+}
+.spisok {
+    margin-top: 8px;
+}
+.menybar:hover {
+    color: #f3af25;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: -50px;
+    padding-right: 0;
+    margin-right: -35px
+}
+
+#nav_panel{
+    padding-left: 15px;
+}
+
+#logout{
+    padding-left: 33px;
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 1200px) {
+    .container {
+        /*content--------------------------------------------*/
+    }
+    .container #taxi838 {
+        font-size: 25.74px;
+        margin-top: 2px;
+        padding-left: 3px;
+    }
+    .container #slogan {
+        font-size: 12.01px;
+        margin-top: -10px;
+        padding-left: 3px;
+    }
+    .container .logo {
+        height: 150px;
+        width: 180px;
+        padding-left: 5px;
+    }
+    .container .head {
+        height: 150px;
+    }
+    .container .phone {
+        padding-left: 38px;
+        padding-right: 5px;
+        margin-left: -110px;
+        margin-top: 8px;
+    }
+    .container .telephon {
+        height: 32px;
+        width: 29px;
+    }
+    .container .net {
+        display: none;
+    }
+    .container .otstyp {
+        margin-right: 28px;
+
+        /*margin-top: 6px;*/
+    }
+
+
+    .otstyp:hover {
+        background: white;
+    }
+    header nav div a:hover {
+        color: black;
+    }
+    .otstyp:active {
+        background-color: #f3af25;
+        border-radius: 12px;
+        color: white;
+    }
+    header nav div a:active {
+        color: black;
+    }
+    header nav div a:active {
+        color: #f4f0ea;
+    }
+    #nav_panel{
+        padding-bottom: 35px;
+        margin-bottom: 53px;
+        padding-right: 0;
+        height: 35px;
+    }
+    #log_reg{
+        margin-top: 15px;
+    }
+    #exit_icon{
+        padding-left: 5px;
+    }
+    #reg_icon{
+        padding-left: 7px;
+    }
+
+     .container header nav div {
+        padding-right: 0;
+    }
+
+     .navigation{
+         margin-top: 16px;
+         margin-right: -77px
+     }
+
+    #nav_panel{
+        padding-left: 43px;
+        padding-right: 15px;
+    }
+
+    #reg_icon_for_tablet{
+        height: 30px;
+        width: 30px;
+        margin-left: 2px;
+    }
+
+    #log_icon_for_tablet{
+        height: 26px;
+        width: 26px;
+    }
+
+    #reg_title{
+        float: right;
+        margin-top: 4px;
+        margin-left: 5px
+    }
+
+    #log_title{
+        margin-left: 7px;
+        margin-top: 5px;
+    }
+
+    .float{
+        float: left;
+    }
+
+    #login{
+        margin-top: 25px;
+    }
+
+    #reg_user{
+        margin-left: 26px;
+        margin-top: 10px;
+    }
+
+    #wrap_reg{
+        margin-left: -30px;
+        margin-top: 10px;
+    }
+
+    #wrap_title_log{
+        margin-top: 28px;
+    }
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 992px) {
+    .container .sm1 {
+        display: none;
+    }
+    .container nav {
+        display: none!important;
+    }
+    .container .phone {
+        margin-left: -20px;
+    }
+    .container .knopka {
+        display: block;
+        margin-left: 169px;
+    }
+    .container #knopka {
+        height: 35px;
+        width: 35px;
+    }
+    .coll-offset-md-2 {
+        margin-left: 0;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 768px) {
+    .container {
+        /*content--------------------------------------------*/
+    }
+    .container .head {
+        height: 100px;
+    }
+    .container .logo {
+        height: 93px;
+        width: 105px;
+        margin-left: -21px;
+        margin-top: 1px;
+    }
+    .container #taxi838 {
+        font-size: 15px;
+        margin-top: 4px;
+    }
+    .container #slogan {
+        font-size: 8px;
+        margin-top: -5px;
+    }
+    .container .phone {
+        padding-left: 0;
+        margin-left: 5px;
+        padding-left: 15px;
+    }
+    .container .telephon {
+        height: 22px;
+        width: 20px;
+        padding-right: -25px;
+        margin-top: -1px;
+    }
+    .container .knopka {
+        margin-top: -2px;
+        margin-left: 40px;
+    }
+    .container #numb {
+        font-size: 15px;
+        margin-top: -4px;
+        margin-left: 8px;
+    }
+    .container #knopka {
+        height: 32px;
+        width: 32px;
+    }
+    .container .menybar {
+        font-size: 10px;
+    }
+    .container #menybar {
+        margin-top: 4px;
+    }
+    .container .coll-offset-sm-2 {
+        margin-left: 0;
+    }
+
+    /*====================*/
+    #shashki {
+        height: 17px;
+    }
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 480px) {
+    .container {
+        /*content--------------------------------------------*/
+    }
+    .container .head {
+        height: 75px;
+    }
+    .container .logo {
+        height: 77px;
+        width: 89px;
+        margin-left: -19px;
+        margin-top: 2px;
+    }
+    .container #taxi838 {
+        font-size: 14px;
+        margin-top: 4px;
+    }
+    .container #slogan {
+        font-size: 7px;
+        padding-bottom: 2px;
+    }
+    .container .phone {
+        margin-left: -22px;
+        padding-left: 18px;
+    }
+    .container .knopka {
+        margin-left: 22px;
+    }
+    .container #numb {
+        font-size: 12.71px;
+    }
+    .container .telephon {
+        height: 18px;
+        width: 16px;
+    }
+    .container #knopka {
+        height: 30px;
+        width: 30px;
+    }
+    .container #menybar {
+        margin-top: 6px;
+    }
+}

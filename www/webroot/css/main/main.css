@@ -1,0 +1,1084 @@
+@font-face {
+    font-family: Hind-Regular;
+    src: url(../../fonts/Hind-Regular.ttf);
+
+}
+
+
+
+/*content------------------------------*/
+#numb1::-webkit-input-placeholder{color: #000;}
+::-webkit-input-placeholder {color:#f5a80d;}
+#numb1:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+.numb4:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+::-webkit-input-placeholder {opacity: 1; transition: opacity 0.3s ease;}
+
+option::selection {background: #ccc; color:#fff;}
+
+select:active, select:focus {
+    outline: none;
+    border-radius: 13px 13px 0 0;
+}
+select:before{
+    border-radius: 13px;
+}
+
+option{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#poslygi {
+    font-family: Verdana;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 85px;
+    font-weight: normal;
+}
+
+#form{
+    position: relative;
+    margin-top: 18px;
+    height: 100px
+}
+#podstavka {
+    background: url("../../img/template/pryamo2.png");
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 48px;
+    height: 435px;
+}
+#zakaz {
+    margin-top: 128px;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 18px;
+    color: #f7f3e9;
+    font-weight: normal;
+}
+
+
+
+
+
+#numb1 {
+    font-size: 14px;
+    text-align: center;
+    color: #0b0b0a;
+    font-family: Verdana;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 12px;
+    margin-top: 2px;
+    background: rgba(252, 251, 249, 0.23);
+    border: rgba(252, 251, 249, 0.23);
+}
+.knopka101 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+}
+input {
+    outline: none;
+}
+#numb2 {
+    font-size: 12px;
+    text-align: center;
+    color: #0b0b0a;
+    font-family: verdana;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 19px;
+    padding-right: 19px;
+    border-radius: 12px;
+    margin-top: 20px;
+    background: #e5c441;
+    border: rgba(251, 169, 3, 0.6);
+    cursor: pointer;
+    transition: 0.2s;
+}
+#numb2:hover {
+    background: linear-gradient(#f5ae09, #f59500);
+}
+#numb2:active {
+    background: linear-gradient(#f59500, #f5ae00) #f59500;
+}
+
+#operand {
+    margin-top: 9px;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 12px;
+    color: #f7f3e9;
+}
+.cicle {
+    display: block;
+    margin: 0 auto;
+}
+.content {
+    margin-top: 55px;
+}
+.texta {
+    font-family: Verdana;
+    font-size: 12.5px;
+    text-align: center;
+    margin-top: 5px;
+}
+#podcherk {
+    font-family: Hind-Regular;
+}
+
+#turbota {
+    color: #0d0d0c;
+    font-family: Verdana;
+    font-size: 17.5px;
+    margin-top: 136px;
+    text-align: center;
+    font-weight: normal;
+}
+.okay {
+    display: none;
+}
+#f2 {
+    margin-left: -11px;
+}
+#f3 {
+    padding-left: 29px;
+}
+#f4 {
+    padding-left: 47px;
+}
+#f5 {
+    padding-right: 0;
+    padding-left: 30px;
+    margin-left: 11px;
+}
+#f5_1 {
+    text-align: center;
+    margin-top: -13px;
+    margin-left: -3px;
+}
+#f6 {
+    padding-right: 0;
+    padding-left: 72px;
+}
+.txt {
+    font-family: Verdana;
+    font-size: 14px;
+}
+#contr {
+    margin-top: -4px;
+}
+.pol {
+    width: 1140px;
+    margin: 55px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+.t1 {
+    display: none;
+}
+#forma {
+    height: 575px;
+    width: 50%;
+    background: #0d0d0c;
+    margin-top: 133px;
+    position: relative;
+    padding-bottom: 0;
+}
+#forma2 {
+    height: 575px;
+    width: 50%;
+    background: #f5a80d;
+    margin-top: 133px;
+    position: relative;
+}
+#pitanya {
+    font-family: Verdana;
+    font-size: 18px;
+    font-weight: normal;
+    color: #f6f2e9;
+    text-align: center;
+    margin-top: 1.97em;
+    padding-bottom: 0;
+}
+#disp {
+    text-align: center;
+    margin-top: -16px;
+}
+.disp1 {
+    height: 325px;
+    width: 325px;
+}
+.two_block {
+    display: flex;
+}
+#kniga {
+    font-family: Hind-Regular, Verdana;
+    font-size: 18px;
+    font-weight: normal;
+    color: #f6f4f0;
+    text-align: center;
+    margin-top: 1.97em;
+    padding-bottom: 0;
+}
+.knopka9 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+}
+.numb4 {
+    font-size: 14px;
+    text-align: center;
+    color: #faf5f5;
+    font-family: Verdana;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 12px;
+    margin-top: 2px;
+    background: rgba(252, 251, 249, 0.23);
+    border: rgba(252, 251, 249, 0.23);
+}
+#numb3 {
+    font-size: 12px;
+    text-align: center;
+    color: #0b0b0a;
+    font-family: Verdana;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 19px;
+    padding-right: 19px;
+    border-radius: 12px;
+    /*margin-top: 15px;*/
+    background: #f5c441;
+    border: rgba(251, 169, 3, 0.6);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#numb3:hover {
+    background: linear-gradient(#f5ae09, #f59500);
+}
+#numb3:active {
+    background: linear-gradient(#f59500, #f5ae00) #f59500;
+}
+#numb5 {
+    font-size: 14px;
+    text-align: center;
+    color: #faf5f5;
+    font-family: Verdana;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 12px;
+    margin-top: 2px;
+    background: rgba(252, 251, 249, 0.23);
+    border: rgba(252, 251, 249, 0.23);
+    outline: none;
+    -webkit-appearance: none;
+}
+.radio {
+    font-family: Verdana;
+    font-size: 12px;
+    color: #f5a80d;
+}
+.mezhdy_rad {
+    margin-top: 6px;
+}
+.obvertka_rad {
+    margin-top: 17px;
+}
+#oblogka_knigi {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#coll-1-kniga {
+    color: #f5a80d;
+    font-family: Verdana;
+    font-size: 14px;
+    position: relative;
+    margin-top: -4px;
+    float: left;
+    margin-left: 10px;
+}
+#ch2 {
+    padding-top: 21px;
+}
+#ch1 {
+    padding-top: 21px;
+}
+#ch3 {
+    padding-top: 18px;
+}
+#ch4 {
+    padding-top: 21px;
+}
+#ch5{
+    margin-top: 35px;
+}
+.ch6{
+    margin-top: 35px;
+}
+
+
+.polya {
+    width: 228px;
+    margin: 0 auto;
+    margin-top: -20px;
+    position: relative;
+}
+#pole2 {
+    margin-top: 15px;
+}
+#pole3 {
+    margin-top: 15px;
+}
+
+#field2 {
+    margin-top: 15px;
+}
+#otpravka {
+    width: 96px;
+    margin: 18px auto;
+}
+#vstanovi {
+    font-family: Hind-Regular, Verdana;
+    font-size: 18px;
+    color: #0b0b0a;
+    font-weight: normal;
+    padding-bottom: 0;
+    margin-top: 4px;
+}
+#bezlich {
+    font-family: Verdana;
+    font-size: 12px;
+    margin-top: -35px;
+}
+#smartphone {
+    padding-left: 100px;
+}
+.vvod {
+    font-family: Verdana;
+    font-size: 13px;
+    color: #f5a80d;
+}
+#download {
+    display: flex;
+    padding-top: 18px;
+}
+.app_google {
+    margin-left: 5px;
+}
+#aplication {
+    margin-top: 155px;
+}
+body {
+    margin: 5px 0 0 0;
+}
+#smart {
+    font-weight: normal;
+}
+.abzaC {
+    margin-left: -8px;
+}
+.test {
+    display: none;
+}
+
+#description{
+    font-size: 13px;
+    font-family: Verdana;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#wrapper {
+    width: 550px;
+    margin: 0 auto;
+}
+
+#check_in_block{
+    background: #f5a80d;
+    width: 100%;
+    height: 400px;
+    margin-top: 140px;
+    display: table;
+}
+
+#cell{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#wrapper_discount{
+    margin-top: -50px;
+}
+
+#title_reg_discount{
+    font-size: 18px;
+    font-family: Verdana;
+    color: white;
+    text-align: center;
+}
+
+#discount{
+    /*margin-top: 50px;*/
+}
+
+a.button7 {
+    font-weight: 700;
+    color: #ffac0e;
+    font-family: Verdana;
+    text-decoration: none;
+    padding: .55em 8em calc(.15em + 10px);
+    border-radius: 3px;
+    background: rgb(15, 9, 9);
+    box-shadow: 0 -3px rgb(48, 150, 99) inset;
+    transition: 0.2s;
+    margin: auto;
+}
+a.button7:hover { background: rgb(35, 110, 72); }
+a.button7:active {
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+}
+
+#but_reg{
+    text-align: center;
+}
+
+#after_reg_title{
+    text-align: center;
+    font-size: 17px;
+    font-family: Verdana;
+    margin-top: 140px;
+}
+
+.image_after{
+    text-align: center;
+    margin-top: 19px;
+}
+
+.description_image{
+    margin-top: 2px;
+    font-family: Verdana;
+    font-size: 13px;
+}
+
+
+
+/*media----------------------------------------*/
+@media only screen and (max-width: 1440px) {
+    .spis_car {
+        display: none;
+        margin-top: 17px;
+    }
+    .next1 {
+        display: none;
+    }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 1200px) {
+    .container {
+        /*content--------------------------------------------*/
+    }
+
+    .container .pokagi {
+        display: none;
+    }
+    .container #meregi {
+        width: 250px;
+    }
+    .container #numb {
+        cursor: pointer;
+    }
+    .container .m1 {
+        margin-top: 30px;
+    }
+    .container .ryad2 {
+        margin-top: 17px;
+    }
+    .container .cicle {
+        height: 105px;
+        width: 105px;
+    }
+    .container .mar_left {
+        margin-left: 145px;
+    }
+    .container .txt_left {
+        margin-left: 100px;
+    }
+    .container .mar_right {
+        margin-right: 145px;
+    }
+    .container .txt_right {
+        margin-right: 100px;
+    }
+    .container #smartphone {
+        margin-left: 50px;
+        width: 125px;
+        height: 249px;
+        padding-left: 0;
+    }
+    .container #vstanovi {
+        padding-top: 2px;
+        font-size: 14.3px;
+    // font-weight: ;
+    }
+    .container #bezlich {
+        font-size: 11.5px;
+        margin-top: -27px;
+    }
+    .container .abzaC {
+        padding-left: 20px;
+        margin-left: -28px;
+    }
+    .container #download {
+        padding-top: 15px;
+    }
+    .container #smart {
+        font-weight: bold;
+    }
+    #poslygi {
+        font-size: 22px;
+    }
+    #zakaz {
+        font-size: 16px;
+    }
+    #numb1 {
+        font-size: 13px;
+    }
+    input {
+        height: 40px;
+    }
+    #numb2 {
+        font-size: 11px;
+    }
+    #operand {
+        margin-top: 6px;
+        font-size: 11px;
+    }
+    #zakaz {
+        margin-top: 132px;
+    }
+
+    #form{
+        margin-top: 15px;
+    }
+    .md {
+        display: none;
+    }
+    .okay {
+        display: block;
+    }
+    #turbota {
+        font-size: 16px;
+        margin-top: 124px;
+    }
+    #forma,
+    #forma2 {
+        height: 595px;
+        margin-top: 110px;
+    }
+    #kniga {
+        font-size: 15.5px;
+        margin-top: 2.8em;
+    }
+    #pitanya {
+        font-size: 15.5px;
+        margin-top: 2.8em;
+    }
+
+    #description{
+        width: 370px;
+        margin: 18px auto 0 ;
+    }
+
+    .disp1 {
+        margin-top: 5px;
+        height: 300px;
+        width: 300px;
+    }
+
+    #choice_car {
+        display: none;
+    }
+    .spis_car {
+        display: block;
+    }
+    #coll-1-kniga {
+        display: none;
+    }
+    .next {
+        display: none;
+    }
+    .next1 {
+        display: block;
+    }
+    #oblogka_knigi {
+        margin-top: 1.8em;
+    }
+    .test {
+        display: block;
+    }
+    #numb2:hover {
+        background: #e5c441;
+    }
+    .otstyp:hover {
+        background: white;
+    }
+
+    .ui-datepicker-calendar td {
+        padding: 5px 7px;
+        text-align: center;
+        line-height: 26px;
+    }
+
+    .ui-widget {
+        width: 350px;
+        margin-left: -63px;
+        margin-top: -40px;
+    }
+    #wrapper{
+        width: 490px;
+    }
+
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 992px) {
+    .container .sm1 {
+        display: none;
+    }
+
+    .container .t1 {
+        display: block;
+    }
+    .container .sm1 {
+        display: none;
+    }
+    .container .mar_left {
+        margin: 0 auto;
+    }
+    .container .txt_left {
+        margin: 0 auto;
+    }
+    .container .mar_right {
+        margin: 0 auto;
+    }
+    .container .txt_right {
+        margin: 0 auto;
+    }
+    .container .ryad2 {
+        margin-top: 0;
+    }
+    .container .texta {
+        font-size: 11.5px;
+    }
+    .container .im_tabl {
+        margin-top: 10px;
+    }
+    .container .im_tabl {
+        margin-top: 0;
+    }
+    .container .m1 {
+        margin-top: 20px;
+    }
+    .container .texta {
+        padding-bottom: 3px;
+    }
+    .container #smartphone {
+        margin: 0;
+        padding-left: 0;
+        width: 130px;
+        height: 244px;
+    }
+    .container .download {
+        width: 52px;
+        height: 40px;
+    }
+    .container .center {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container .abzac {
+        padding-left: 0;
+    }
+    .container #download {
+        width: 180px;
+        padding-top: 9px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container .mid {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+    .container #vstanovi {
+        font-size: 13.5px;
+    }
+    .container .app_google {
+        margin-left: 6px;
+    }
+    .container .abzaC {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+    }
+    .container .coll-offset-md-2 {
+        margin-left: 0;
+    }
+    /*content--------------------------------------------*/
+    #poslygi {
+        margin-top: 70px;
+        font-size: 20px;
+    }
+    #fotka {
+        height: 400px;
+    }
+    #zakaz {
+        margin-top: 118px;
+    }
+    #turbota {
+        font-size: 15px;
+        margin-top: 109px;
+    }
+    #forma {
+        width: 100%;
+        height: 585px;
+        margin-top: 85px;
+    }
+    #forma2 {
+        width: 100%;
+        margin-top: 0;
+        height: 585px;
+    }
+    #pok {
+        flex-direction: column;
+    }
+    #kniga {
+        font-size: 14px;
+        margin-top: 2.6em;
+    }
+    #pitanya {
+        font-size: 14px;
+        margin-top: 3.8em;
+    }
+    .disp1 {
+        margin-top: 5px;
+        height: 290px;
+        width: 290px;
+    }
+    #description {
+        font-size: 12px;
+        width: 400px;
+    }
+    #aplication {
+        margin-top: 130px;
+    }
+    #podstavka{
+        background: url("../../img/template/cars2.png");
+        height: 400px;
+    }
+    #form{
+        margin-top: 10px;
+    }
+
+    .ui-datepicker-calendar td {
+        padding: 5px 7px;
+        text-align: center;
+        line-height: 26px;
+    }
+
+    .ui-widget {
+        width: 400px;
+        margin-left: -93px;
+        margin-top: -40px;
+    }
+
+    .wickedpicker {
+        margin-top: -40px;
+    }
+
+
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 768px) {
+    .container {
+        /*content--------------------------------------------*/
+    }
+
+    .container .coll-offset-sm-2 {
+        margin-left: 0;
+    }
+    .container .cicle {
+        height: 80px;
+        width: 80px;
+    }
+    .container .texta {
+        font-size: 11px;
+        padding-bottom: 0;
+    }
+    .container .m1 {
+        margin-top: 11px;
+    }
+    .container #smartphone {
+        width: 117px;
+        height: 231px;
+    }
+    .container #vstanovi {
+        font-size: 12px;
+    }
+    .container #bezlich {
+        font-size: 11px;
+    }
+    .container .abzaC {
+        margin-top: -4px;
+    }
+    .container #download {
+        padding-top: 1px;
+        padding-bottom: 25px;
+    }
+    .container .download {
+        width: 50px;
+        height: 38px;
+    }
+    #poslygi {
+        font-size: 14px;
+        margin-top: 40px;
+    }
+    #podstavka {
+        margin-top: 20px;
+        height: 235px;
+        background: url("../../img/template/cars3.png");
+    }
+    #fotka {
+        display: none;
+    }
+    #zakaz {
+        font-size: 12.5px;
+        margin-top: 42px;
+        padding-bottom: 3px;
+    }
+    #numb1 {
+        font-size: 11px;
+    }
+    #numb2 {
+        font-size: 10.5px;
+    }
+    .operator {
+        font-size: 10px;
+    }
+    .kn2 {
+        margin-top: -6px;
+    }
+    #operand {
+        margin-top: -5px;
+        font-size: 10px;
+    }
+    #turbota {
+        font-size: 12.3px;
+        margin-top: 58px;
+    }
+    #forma2 {
+        display: none;
+    }
+    #forma {
+        height: 560px;
+        margin-top: 45px;
+    }
+    #kniga {
+        font-size: 12.25px;
+        margin-top: 2.3em;
+    }
+    .numb4 {
+        font-size: 12px;
+    }
+    #oblogka_knigi {
+        width: 200px;
+    }
+    .polya {
+        width: 207px;
+    }
+    #numb3 {
+        font-size: 11px;
+    }
+    #aplication {
+        margin-top: 74px;
+    }
+
+    .ui-datepicker-calendar td {
+        padding: 6px 7px;
+        text-align: center;
+        line-height: 26px;
+    }
+
+    .ui-widget {
+        width: 250px;
+        margin-left: -25px;
+        margin-top: -40px;
+    }
+
+    .wickedpicker {
+        margin-left: -10px;
+    }
+
+    ul{
+        width: 207px;
+    }
+
+    .wickedpicker__controls {
+        padding-left: 18px;
+    }
+
+    #check_in_block{
+        margin-top: 30px;
+        height: 250px;
+    }
+
+    #title_reg_discount{
+        font-size: 14px;
+    }
+
+    a.button7{
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    #after_reg_title{
+        margin-top: 64px;
+        font-size: 14px;
+    }
+
+    .description_image{
+        font-size: 11px;
+    }
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 480px) {
+    .container {
+        /*content--------------------------------------------*/
+    }
+    .container .m1 {
+        display: none;
+    }
+    #poslygi {
+        font-size: 12px;
+        margin-top: 38px;
+    }
+    .operator {
+        display: none;
+    }
+    #podstavka {
+        height: 190px;
+        margin-top: 24px;
+    }
+    #zakaz {
+        font-size: 11.3px;
+        margin-top: 37px;
+    }
+    #numb1 {
+        font-size: 10.5px;
+    }
+    #numb2 {
+        font-size: 9.7px;
+    }
+    #turbota {
+        display: none;
+    }
+
+    .container #bezlich {
+        font-size: 11px;
+
+    }
+
+    #aplication{
+        margin-top: 30px;
+    }
+
+    #vstanovi{
+        margin-top: -2px;
+    }
+
+    #bezlich{
+        margin-top: 4px;
+    }
+    #forma {
+        height: 548px;
+        margin-top: 27px;
+    }
+    #kniga {
+        font-size: 11.3px;
+    }
+    .numb4 {
+        font-size: 10.5px;
+    }
+    #numb3 {
+        font-size: 9.8px;
+    }
+    .polya {
+        width: 185px;
+    }
+
+    .ui-datepicker-calendar td {
+        padding: 6px 7px;
+        text-align: center;
+        line-height: 26px;
+    }
+
+    .ui-widget {
+        width: 250px;
+        margin-left: -35px;
+        margin-top: -40px;
+    }
+
+    .wickedpicker {
+        margin-left: -25px;
+    }
+
+    ul{
+        width: 185px;
+    }
+
+    .wickedpicker__controls {
+        padding-left: 45px;
+    }
+
+    #check_in_block{
+        margin-top: 0;
+        height: 250px;
+    }
+
+    #title_reg_discount{
+        font-size: 13px;
+    }
+
+    a.button7{
+        font-weight: 400;
+        font-size: 13px;
+    }
+
+    #after_reg_title{
+        margin-top: 44px;
+        font-size: 13px;
+    }
+
+    .description_image{
+        font-size: 11px;
+    }
+
+    .select__gap {
+        font-size: 11px;
+    }
+}

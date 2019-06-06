@@ -1,0 +1,128 @@
+.foot {
+    margin-top: 145px;
+    height: 210px;
+    width: 100%;
+    background-color: #080808;
+    position: relative;
+    overflow: hidden;
+}
+.menfyt {
+    font-family: Verdana;
+    font-size: 11px;
+    color: #faf5f5;
+    text-decoration: none;
+}
+#pruednuytes {
+    font-family: Verdana;
+    font-size: 14px;
+    color: #fdfbf7;
+    text-align: center;
+}
+#conected {
+    margin-top: 53px;
+}
+#meregi {
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5px;
+}
+#bot_podpis {
+    font-family: Hind-Regular;
+    font-size: 12px;
+    color: #faf5f5;
+    margin-left: -6px;
+}
+#text-niz {
+    text-align: center;
+}
+.menuniz {
+    font-family: Verdana;
+    font-size: 14px;
+    color: #faf5f5;
+    margin-top: -113px;
+    margin-left: -14px;
+}
+.menfyt {
+    font-family: verdana;
+    font-size: 11px;
+    color: #faf5f5;
+    text-decoration: none;
+}
+.menfyt:hover {
+    color: #f5a80d;
+}
+#menyvibor {
+    margin-top: -90px;
+    margin-left: -14px;
+}
+.pynkt {
+    margin-top: -5px;
+}
+#dlya_klient {
+    padding-left: 89px;
+}
+#ANP {
+    margin-top: -90px;
+    padding-left: 89px;
+}
+.MENY {
+    margin-top: -5px;
+}
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 1200px) {
+    .container {
+        /*content--------------------------------------------*/
+    }
+    .container .pokagi {
+        display: none;
+    }
+    .container #meregi {
+        width: 250px;
+    }
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 992px) {
+    .container .sm1 {
+        display: none;
+    }
+    .container #pruednuytes {
+        font-size: 13px;
+    }
+    .container .t1 {
+        display: block;
+    }
+
+    .container .coll-offset-md-2 {
+        margin-left: 0;
+    }
+
+    .foot {
+        margin-top: 120px;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 768px) {
+    .container {
+        /*content--------------------------------------------*/
+    }
+
+    .container .coll-offset-sm-2 {
+        margin-left: 0;
+    }
+
+    footer {
+        display: none;
+    }
+
+
+}

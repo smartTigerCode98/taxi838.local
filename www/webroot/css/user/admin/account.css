@@ -1,0 +1,36 @@
+
+table{
+    text-align: center;
+    width: 700px;
+    display: block;
+    margin: 50px auto 0;
+}
+
+
+
+th{
+    font-family: Verdana;
+    font-weight: normal;
+    background-color: #f5a80d;
+    padding: 15px;
+
+}
+
+td{
+    text-align: center;
+    padding: 15px;
+    border: 1px solid black;
+    font-family: Verdana;
+    font-size: 14px;
+    width: 500px;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #ffac0e;
+    color: #0f0909;
+    font-family: Verdana;
+    font-size: 13px;
+}
+

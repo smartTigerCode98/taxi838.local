@@ -1,0 +1,12 @@
+
+body{
+    margin: 0;
+}
+
+
+#formOrder{
+    height: 520px;
+    background-color: #ffac0e;
+    display: table;
+    margin-top: 20px;
+}

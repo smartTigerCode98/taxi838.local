@@ -1,0 +1,386 @@
+
+
+
+
+table {
+    border: 1px solid #ccc;
+    width: 100%;
+    margin:0;
+    padding:0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: Verdana;
+    font-size: 15px;
+}
+
+table tr {
+    border: 1px solid #ffac0e;
+    padding: 5px;
+    background: #f5a80d;
+}
+
+table th{
+    background: black;
+    padding: 15px;
+    text-align: center;
+}
+table td {
+    padding: 15px;
+    text-align: center;
+   border: white;
+}
+
+table th {
+    color: #f5a80d;
+    font-size: 14px;
+
+}
+
+#titleHistory{
+    font-weight: normal;
+    font-family: Verdana;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 85px;
+    margin-bottom: 30px;
+}
+
+#orders{
+    font-weight: normal;
+    font-family: Verdana;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 30px;
+}
+
+#filter{
+    margin-bottom: 30px;
+}
+
+
+
+.fieldFilter{
+    width: 277px;
+    height: 50px;
+    text-align: center;
+    background-color: #f5a80d;
+    color: black;
+    border: 5px #000000;
+    font-family: Verdana;
+}
+
+
+.field{
+    clear:both;
+    text-align:right;
+    line-height:25px;
+    margin-top: 20px;
+}
+
+.labelFilter {
+    width: 277px;
+    height: 50px;
+    text-align: center;
+    background-color: #0f0909;
+    color: #ffac0e;
+    border: none;
+    float:left;
+    padding-top:10px;
+    font-family: Verdana;
+    font-size: 14px;
+}
+
+.main {
+    float:left;
+
+}
+
+
+.buttonControl{
+    width: 270px;
+    height: 45px;
+    display: block;
+    margin: 14px auto 30px;
+    background-color: black;
+    color: #f5a80d;
+}
+
+.selectFilter{
+    display: block;
+    width: 300px;
+    height: 50px;
+    text-align-last: center;
+    background-color: #f5a80d;
+    color: #0b0b0a;
+    margin: 10px auto 0;
+
+    float: left;
+}
+
+.allTravels{
+    display: block;
+    width: 200px;
+    height: 40px;
+    background: #f5a80d;
+    color: #0b0b0a;
+    margin: 8px auto 0;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 11px;
+    margin-bottom: 30px;
+    font-family: Verdana;
+    font-size: 14px;
+
+}
+
+.selectValue{
+    float: left;
+    text-align: center;
+}
+
+.wrapper{
+    width: 600px;
+    margin: 0 auto;
+}
+
+#filterHistory{
+    font-weight: normal;
+    font-family: Verdana;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+
+.fieldNameValue{
+    width: 270px;
+    height: 50px;
+    text-align: center;
+    background-color: #0f0909;
+    color: #ffac0e;
+    border: 5px #000000;
+    display: block;
+    font-family: Verdana;
+    float: left;
+    font-size: 12px;
+}
+
+
+.fieldStatistic{
+    width: 270px;
+    height: 50px;
+    text-align: center;
+    background-color: #f5a80d;
+    color: black;
+    border: 5px #000000;
+    font-family: Verdana;
+    float: left;
+    font-size: 12px;
+    padding-top: 12px;
+}
+
+#secondBlock{
+    margin-top: -15px;
+}
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    .container .labelFilter{
+        width: 227px;
+        font-size: 13px;
+    }
+
+    .container .fieldFilter{
+        width: 227px;
+        font-size: 13px;
+    }
+
+    .container td{
+        font-size: 14px;
+    }
+
+    .container th{
+        font-size: 13px;
+    }
+
+    .container .wrapper{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .fieldNameValue{
+        width: 300px;
+    }
+
+
+    .fieldStatistic{
+        width: 300px;
+    }
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .container .labelFilter{
+        width: 297px;
+    }
+
+    .container .fieldFilter{
+        width: 297px;
+    }
+
+    .container .field{
+        margin-top: 15px;
+    }
+
+    .container td{
+        font-size: 12px;
+    }
+
+    .container th{
+        font-size: 12px;
+    }
+
+
+    .selectFilter{
+        width: 297px;
+        height: 40px;
+        margin-top: 10px;
+    }
+
+    .allTravels{
+        margin-top: 5px;
+    }
+
+    #secondBlock{
+        margin-top: 0;
+    }
+
+    .fieldNameValue{
+        width: 349px;
+    }
+
+
+    .fieldStatistic{
+        width: 349px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+     #titleHistory{
+        font-size: 15px;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+
+    #filterHistory{
+        font-size: 13px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .container .labelFilter{
+        width: 208px;
+        height: 40px;
+        font-size: 11px;
+        padding-top: 5px;
+
+    }
+
+    .container .fieldFilter{
+        width: 208px;
+        height: 40px;
+        font-size: 10px;
+        padding-top: 9px;
+    }
+
+    .container .field{
+        margin-top: 15px;
+    }
+
+    .selectFilter{
+        width: 208px;
+        height: 40px;
+        margin-top: 10px;
+    }
+
+    .buttonControl{
+        width: 418px;
+        height: 40px;
+        margin: 5px auto 30px;
+    }
+
+    #orders{
+        font-size: 15px;
+        margin-top: 35px;
+    }
+
+    .allTravels{
+        font-size: 14px;
+    }
+
+    .fieldNameValue{
+        width: 420px;
+    }
+
+
+    .fieldStatistic{
+        width: 420px;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .container .labelFilter{
+        width: 300px;
+        height: 40px;
+        font-size: 11px;
+        padding-top: 5px;
+
+    }
+
+    .container .fieldFilter{
+        width: 300px;
+        height: 40px;
+        font-size: 10px;
+        padding-top: 9px;
+    }
+
+    .wrapper{
+        width: 300px;
+    }
+    .selectFilter{
+        width: 300px;
+        height: 40px;
+        margin-top: 10px;
+        float: none;
+    }
+
+    .buttonControl {
+        width: 302px;
+    }
+
+    #orders{
+        margin-top: 45px;
+    }
+
+    .fieldNameValue{
+        width: 288px;
+    }
+
+
+    .fieldStatistic{
+        width: 288px;
+    }
+}
+
+
+
+

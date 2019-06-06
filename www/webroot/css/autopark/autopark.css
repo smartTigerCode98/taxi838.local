@@ -1,0 +1,257 @@
+
+#carsGallery{
+    margin-top: 30px;
+}
+
+
+#titleAutopark{
+    font-family: Verdana;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 85px;
+    font-weight: normal;
+}
+
+
+.carExample{
+    border: 10px solid #ffac0e;
+    width: 560px;
+}
+
+.aboutTypeCar{
+    background: black;
+    color: #f5a80d;
+    width: 560px;
+    height: 150px;
+    margin-top: -4px;
+    position: relative;
+}
+
+#allBodyTypes{
+    margin-top: 30px;
+}
+
+.titleBodyType{
+    position: absolute;
+    text-align: center;
+    font-family: Verdana;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.blockText{
+    position:absolute;
+    width: 500px;
+    left: 50%;
+    margin-left: -250px;
+}
+.descriptionBodyType{
+    position: absolute;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 14px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+
+.aloneBodyType{
+    background: #f5a80d;
+    width: 210px;
+    height: 35px;
+    float: left;
+    margin-left: 22px;
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+
+ .aloneBodyType:hover{
+    background: black;
+}
+
+.aloneBodyType:hover .link{
+    color: #f5a80d;
+}
+
+.link{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 7px;
+    font-family: Verdana;
+    color: black;
+}
+
+#wrapper{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+.pstrnav {
+    text-align: center;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+}
+
+.ter{
+    float: left;
+}
+.linkPag{
+    text-decoration: none;
+
+}
+
+.pstrnav a{
+    display: inline-block;
+    width: 30px;
+    text-decoration: none;
+    background-color: #f5a80d;
+    color: black;
+    font-family: Verdana;
+    height: 30px;
+    padding-top: 5px;
+    border: 5px black;
+}
+
+.pstrnav a:hover{
+    background: black;
+    color: #f5a80d;
+}
+
+#tableCars{
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .carExample{
+        border: 10px solid #ffac0e;
+        width: 470px;
+    }
+
+    .titleBodyType{
+        font-size: 14px;
+    }
+
+    .blockText{
+        width: 400px;
+        left: 50%;
+        margin-left: -200px;
+    }
+
+    .descriptionBodyType{
+        font-size: 12px;
+    }
+
+    .aboutTypeCar{
+        width: 470px;
+    }
+    .pstrnav{
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .carExample{
+        border: 10px solid #ffac0e;
+        width: 592px;
+    }
+
+    .titleBodyType{
+        font-size: 14px;
+    }
+
+    .blockText{
+        width: 450px;
+        left: 50%;
+        margin-left: -225px;
+    }
+
+    .descriptionBodyType{
+        font-size: 12px;
+    }
+
+    .aboutTypeCar{
+        width: 592px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .carExample{
+        border: 7px solid #ffac0e;
+        width: 420px;
+    }
+
+    .titleBodyType{
+        font-size: 14px;
+    }
+
+    .blockText{
+        width: 390px;
+        left: 50%;
+        margin-left: -195px;
+    }
+
+    .descriptionBodyType{
+        font-size: 12px;
+    }
+
+    .aboutTypeCar{
+        width: 420px;
+    }
+
+    .aloneBodyType{
+        margin-left: 0;
+        width: 210px;
+        font-size: 13px;
+        padding-top: 1px;
+    }
+
+    #titleAutopark{
+        font-size: 14px;
+        margin-top: 40px;
+    }
+    .pstrnav{
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .carExample{
+        border: 3px solid #ffac0e;
+        width: 290px;
+    }
+
+    .titleBodyType{
+        font-size: 14px;
+    }
+
+    .blockText{
+        width: 270px;
+        left: 50%;
+        margin-left: -135px;
+    }
+
+    .descriptionBodyType{
+        font-size: 12px;
+    }
+
+    .aboutTypeCar{
+        width: 290px;
+        height: 180px;
+    }
+
+    .aloneBodyType{
+        margin-right: auto;
+        margin-left: auto;
+        width: 235px;
+    }
+}

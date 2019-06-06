@@ -1,0 +1,101 @@
+
+
+.boxShadow1 {
+    width: 100%;
+    /*max-width: 550px;*/
+    margin: 1em auto;
+    padding: 1em;
+    box-shadow: 0 8px 4px -4px rgba(0, 0, 0, .2);
+}
+
+#block_information {
+    background: linear-gradient(#e5aa0a, #f3af25);
+    border-radius: 20px;
+    align-content: center;
+    border: 23px #e5110e;
+    /*text-align: center;*/
+    padding-top: 15px;
+    /*opacity: 0.9;*/
+}
+
+#text {
+    font-family: Verdana;
+    font-size: 14px;
+}
+
+#block {
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+#services {
+    font-family: Verdana;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 85px;
+    font-weight: normal;
+}
+
+#title {
+    font-family: Verdana;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 31px;
+    font-weight: normal;
+}
+
+@media only screen and (max-width: 1200px){
+    #services{
+        font-size: 22px;
+    }
+    #title{
+        font-size: 16px;
+        margin-top: 23px;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    #services{
+        margin-top: 70px;
+        font-size: 20px;
+    }
+    #title{
+        font-size: 15px;
+        margin-top: 19px;
+    }
+    #text{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #block_information{
+        margin-top: 4px;
+    }
+    #services{
+        font-size: 14px;
+        margin-top: 40px;
+    }
+    #title{
+        font-size: 12px;
+        margin-top: 11px;
+    }
+    #text{
+        font-size: 10.5px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #services {
+        font-size: 12px;
+        margin-top: 38px;
+    }
+    #title{
+        font-size: 10.5px;
+        margin-top: 8px;
+    }
+    #text{
+        font-size: 9px;
+        line-height: 1.5em;
+    }
+}

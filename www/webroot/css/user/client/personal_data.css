@@ -1,0 +1,12 @@
+
+body{
+    height: 400px;
+}
+
+#personalPage{
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 85px;
+}

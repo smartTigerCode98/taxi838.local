@@ -1,0 +1,137 @@
+
+
+body{
+    height: 1600px;
+}
+
+input{
+    width: 270px;
+    height: 50px;
+    text-align: center;
+    background-color: #f5a80d;
+    color: black;
+    border: none;
+    font-family: Verdana;
+}
+
+
+.field{
+    clear:both;
+    text-align:right;
+    line-height:25px;
+    margin-top: 20px;
+}
+
+label {
+    width: 270px;
+    height: 50px;
+    text-align: center;
+    background-color: #0f0909;
+    color: #ffac0e;
+    border: none;
+    float:left;
+    padding-top:10px;
+    font-family: Verdana;
+    font-size: 14px;
+}
+
+.main {
+    float:left;
+    margin: 0 auto;
+}
+
+.buttonControl{
+    margin-top: 20px;
+    background-color: black;
+    color: #f5a80d;
+}
+
+/*.annulment{*/
+    /*width: 270px;*/
+    /*height: 50px;*/
+    /*background-color: #ffac0e;*/
+    /*color: #0f0909;*/
+    /*margin-top: 20px;*/
+    /*display: block;*/
+    /*float: left;*/
+    /*text-align: center;*/
+    /*padding-top: 18px;*/
+    /*text-decoration: none;*/
+    /*font-family: Verdana;*/
+    /*font-size: 12px;*/
+/*}*/
+
+
+.modal .close-modal{
+    right: 0;
+    top: 0;
+}
+
+.modal .close-modal svg{
+    margin-right: -110px;
+}
+
+.answer{
+    text-align: center;
+    font-family: Verdana;
+}
+
+.backToTable{
+    display: table;
+    width: 300px;
+    height: 50px;
+    background-color: black;
+    color: #f5a80d;
+    padding-top: 16px;
+    margin-top: -1px;
+}
+
+
+.textBlock{
+    width: 270px;
+    height: 400px;
+    background-color: #f5a80d;
+    color: black;
+    display: block;
+    padding: 20px;
+    font-family: Verdana;
+
+}
+
+.overrideLabel{
+    height: 400px;
+    padding-top: 170px;
+}
+
+select{
+    width: 270px;
+    height: 50px;
+    text-align-last: center;
+    background-color: #f5a80d;
+    color: #0b0b0a;
+}
+
+h1{
+    text-align: center;
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.annulment{
+    width: 270px;
+    height: 50px;
+    background-color: #ffac0e;
+    color: #0f0909;
+    margin-top: 20px;
+    display: block;
+    float: left;
+    text-align: center;
+    padding-top: 18px;
+    text-decoration: none;
+    font-family: Verdana;
+    font-size: 12px;
+
+}

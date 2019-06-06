@@ -1,0 +1,71 @@
+
+
+#aboutUs{
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 85px;
+}
+
+#comfort{
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+p{
+    font-family: Verdana;
+}
+
+li{
+    font-family: Verdana;
+    margin-top: 14px;
+}
+
+#first{
+    margin-top: -14px;
+}
+
+#list{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+    #aboutUs{
+        font-size: 19px;
+    }
+    p{
+        font-size: 15px;
+    }
+
+    li{
+        font-size: 15px;
+    }
+
+    #comfort{
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #aboutUs{
+        font-size: 17px;
+        margin-top: 50px;
+    }
+    p{
+        font-size: 14px;
+    }
+
+    li{
+        font-size: 14px;
+    }
+
+    #comfort{
+        font-size: 16px;
+    }
+}
+

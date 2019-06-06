@@ -1,0 +1,109 @@
+
+
+#titleAccount{
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 85px;
+}
+#free{
+    margin-top: 70px;
+}
+
+#first{
+    height: 200px;
+    background-color: #f5a80d;
+    display: table;
+    text-align: center;
+}
+
+#second{
+    height: 200px;
+    background-color: black;
+    display: table;
+}
+
+
+#third{
+    height: 200px;
+    background-color: #0f0909;
+    display: table;
+}
+
+#fourth{
+    height: 200px;
+    background-color: #ffac0e;
+    display: table;
+}
+
+.orange{
+
+    text-align: center;
+    height: 100%;
+    color: #0f0909;
+    text-decoration: none;
+    font-family: Verdana;
+    font-size: 17px;
+
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.black{
+    text-align: center;
+    height: 100%;
+    color: #ffac0e;
+    text-decoration: none;
+    font-family: Verdana;
+    font-size: 17px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 992px) {
+    #first, #second, #third, #fourth{
+        width: 367px;
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #first, #second, #third, #fourth{
+        width: 430px;
+        height: 100px;
+        float: left;
+        padding-top: 9px;
+    }
+
+    .orange, .black{
+        font-size: 13px;
+    }
+
+    #free{
+        margin-top: 60px;
+    }
+
+    #titleAccount{
+        font-size: 12px;
+        margin-top: 38px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    #first, #second, #third, #fourth{
+        width: 310px;
+        height: 100px;
+        float: left;
+        padding-top: 9px;
+    }
+
+    .orange, .black{
+        font-size: 11px;
+    }
+
+    #free{
+        margin-top: 30px;
+    }
+}
+

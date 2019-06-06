@@ -1,0 +1,114 @@
+@font-face {
+  font-family: Hind-Regular;
+  src: url(../../fonts/Hind-Regular.ttf);
+}
+
+
+
+@my_font: Hind-Regular;
+@my_font2: Verdana;
+@my_size: 14px;
+@my_size2: 12px;
+@my_color_white: #faf5f5;
+
+.title {
+  margin-top: 7px;
+  text-align: center;
+  font-family: @my_font2;
+  font-size: @my_size;
+}
+
+.summary {
+  margin-top: -11px;
+  text-align: center;
+  font-family: @my_font2;
+  font-size: @my_size2;
+  line-height: 1.1em;
+}
+
+#title_services{
+  font-family: @my_font2;
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 85px;
+
+}
+
+.block_service {
+  float: left;
+  margin-top: 35px;
+  margin-left: 85px;
+  text-align: center;
+  height: 210px;
+  width: 200px;
+}
+
+.image_service {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  .block_service {
+    height: 190px;
+    width: 200px;
+    margin-left: 45px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  #title_services {
+    font-size: 20px;
+  }
+  .block_service {
+    width: 210px;
+    margin-left: 54px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .block_service{
+    height: 130px;
+    width: 220px;
+    margin: 30px auto 0;
+    float: none;
+  }
+  #title_services {
+    font-size: 14px;
+    margin-top: 40px;
+  }
+  .image {
+    height: 81px;
+    width: 80px;
+  }
+  .title {
+    font-size: 13px;
+  }
+  .summary {
+    font-size: 11px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .block_service{
+    height: 120px;
+    margin: 20px auto 0;
+  }
+  #title_services {
+    font-size: @my_size2;
+    margin-top: 38px;
+  }
+  .image {
+    height: 75px;
+    width: 74px;
+  }
+  .title {
+    font-size: 11px;
+    margin-top: 4px;
+  }
+  .summary {
+    font-size: 9px;
+    margin-top: -9px;
+    line-height: 1.2em;
+  }
+}

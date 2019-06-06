@@ -1,0 +1,36 @@
+
+.answer{
+    text-align: center;
+    font-family: Verdana;
+}
+
+.backToTable{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 200px;
+    height: 40px;
+    padding-top: 11px;
+    background: black;
+    color: #f5a80d;
+    font-family: Verdana;
+    font-size: 13px;
+    float: left;
+}
+
+.goDelete{
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    color: #f5a80d;
+    font-family: Verdana;
+    font-size: 13px;
+    text-align: center;
+    border: none;
+    float: left;
+    margin-left: 20px;
+}
+
+.error .backToTable{
+    width: 350px;
+}

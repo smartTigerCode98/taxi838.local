@@ -1,0 +1,109 @@
+
+
+ ::-webkit-input-placeholder {color:#f5a80d;}
+ #numb1:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+ .numb4:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+ ::-webkit-input-placeholder {opacity: 1; transition: opacity 0.3s ease;}
+
+ .g-recaptcha{
+     transform:scale(0.89);
+     -webkit-transform:scale(0.89);
+     transform-origin:0 0;
+     -webkit-transform-origin:0 0;
+ }
+#registration{
+    font-family: Verdana;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 85px;
+    font-weight: normal;
+}
+ .login-page {
+     width: 100%;
+     height: 730px;
+     margin-bottom: -90px;
+     margin-top: 40px;
+     padding: 4% 0 0;
+
+     background: #ffac0e;
+ }
+ .form {
+     position: relative;
+     z-index: 1;
+     background: #0f0909;
+     max-width: 360px;
+     margin: 0 auto 100px;
+     padding: 45px;
+     text-align: center;
+     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+ }
+ .form input {
+     font-family: "Roboto", sans-serif;
+     text-align: center;
+     color: #f5a80d;
+     outline: 0;
+     background: #4C4C4C;
+     width: 100%;
+     border: 0;
+     margin: 0 0 15px;
+     padding: 15px;
+     box-sizing: border-box;
+     font-size: 14px;
+ }
+ .form button {
+     font-family: "Roboto", sans-serif;
+     text-transform: uppercase;
+     outline: 0;
+     background: #ffac0e;
+     width: 100%;
+     border: 0;
+     padding: 15px;
+     color: #0f0909;
+     font-size: 14px;
+     -webkit-transition: all 0.3s ease;
+     transition: all 0.3s ease;
+     cursor: pointer;
+     margin-top: 2px;
+ }
+ .form button:hover,.form button:active,.form button:focus {
+     background: #43A047;
+ }
+ .form .message {
+     margin: 15px 0 0;
+     color: #b3b3b3;
+     font-size: 12px;
+ }
+ .form .message a {
+     font-family: Verdana;
+     color: #ffac0e;
+     text-decoration: none;
+ }
+
+ .errMsg{
+     text-align: center;
+ }
+
+
+ @media screen and (max-width: 992px) {
+     .form{
+         margin-top: 22px;
+     }
+ }
+
+ @media only screen and (max-width: 768px) {
+     .form{
+         margin-top: 32px;
+     }
+
+     #registration{
+         font-size: 18px;
+         margin-top: 50px;
+     }
+ }
+
+ @media only screen and (max-width: 480px) {
+     .form{
+         margin-top: 35px;
+     }
+ }
+
